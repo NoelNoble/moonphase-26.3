@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "moonphase",
+	"version": "${version}",
+	"name": "Moon Phase Display",
+	"description": "This mod displays the current phase of the moon",
+	"authors": [
+		"Eposs"
+	],
+	"license": "MIT",
+	"icon": "assets/moonphase/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.eposs.moonphase.MoonPhaseDisplayClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
